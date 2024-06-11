@@ -16,9 +16,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up bash
-      uses: actions/setup-bash@v1
-
     - name: Run tests
       run: |
         chmod +x ./gcd.sh
